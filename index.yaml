@@ -2,13 +2,23 @@ apiVersion: v1
 entries:
   test:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-07-11T08:21:31.346322+08:00"
+    appVersion: 1.16.1
+    created: "2024-07-11T08:25:38.07002+08:00"
     description: A Helm chart for Kubernetes
-    digest: 6e04f31441013e6e602264cc57d4a042d7cc0a2322c210d46e22dc3464520ce5
+    digest: 9202d269f82920cacecd88105300c3410d6ad105762113af0c6008177c225911
+    name: test
+    type: application
+    urls:
+    - https://tyc5412.github.io/helm-c/test-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2024-07-11T08:25:38.069748+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 01883a33e5ccf2686877dfe698a2cae7ea82e3221c866ca2ab57a9a7cfaad442
     name: test
     type: application
     urls:
     - https://tyc5412.github.io/helm-c/test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-11T08:21:31.344342+08:00"
+generated: "2024-07-11T08:25:38.069139+08:00"
