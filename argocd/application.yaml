@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-app
+  namespace: argocd
+spec:
+  destination:
+    server: "https://kubernetes.default.svc" 
+    namespace: prod-ns
+  project: default
+  source:
+    repoURL: 'https://github.com/tyc5412/helm-c' ## TO BE MODIFIED
+    path: 'test'
+    targetRevision: main
+    helm:
+      releaseName: test-app
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
