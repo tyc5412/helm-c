@@ -3,7 +3,7 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-11T07:54:11.530956+08:00"
+    created: "2024-07-11T08:21:31.346322+08:00"
     description: A Helm chart for Kubernetes
     digest: 6e04f31441013e6e602264cc57d4a042d7cc0a2322c210d46e22dc3464520ce5
     name: test
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://tyc5412.github.io/helm-c/test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-11T07:54:11.530533+08:00"
+generated: "2024-07-11T08:21:31.344342+08:00"
