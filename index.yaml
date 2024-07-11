@@ -3,12 +3,12 @@ entries:
   mock-app-canary:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-11T14:11:18.7513394+08:00"
+    created: "2024-07-11T14:23:40.1081705+08:00"
     description: A Helm chart for Kubernetes
-    digest: 80968913d8bdd57ebcce2f341eccf2458e1f0d74adcbfdb5ff9a226b3aeb817e
+    digest: 3b505f8c8f966f180b10b0ffb947ce1d90901e589af28f1baa9329666c30c31c
     name: mock-app-canary
     type: application
     urls:
     - mock-app-canary-1.0.0.tgz
     version: 1.0.0
-generated: "2024-07-11T14:11:18.7502708+08:00"
+generated: "2024-07-11T14:23:40.1081705+08:00"
